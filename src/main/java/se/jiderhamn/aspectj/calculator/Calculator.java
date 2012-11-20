@@ -2,6 +2,7 @@ package se.jiderhamn.aspectj.calculator;
 
 public class Calculator {
   
+  @Factor(Math.PI)
   public double add(double a, double b) {
     return a + b;
   }

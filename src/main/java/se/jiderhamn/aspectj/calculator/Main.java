@@ -12,6 +12,6 @@ public class Main {
 
     System.out.println("100 / 5 = " + calculator.divide(100, 5));
     
-    // System.out.println("100 / 0 = " + calculator.divide(100, 0));
+    System.out.println("100 / 0 = " + calculator.divide(100, 0));
   }
 }
