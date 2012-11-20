@@ -27,6 +27,12 @@
       <version>${aspectj.version}</version>
       <scope>test</scope>
     </dependency>
+    <!-- StringEscapeUtils -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.1</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -72,7 +78,7 @@
           <goal>java</goal>  
          </goals>  
          <configuration>  
-          <mainClass>se.jiderhamn.aspectj.Main</mainClass>
+          <mainClass>se.jiderhamn.aspectj.MainAll</mainClass>
          </configuration>  
         </execution>  
        </executions>  
